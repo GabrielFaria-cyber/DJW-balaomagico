@@ -17,7 +17,7 @@ Este é um jogo utilizando Html, CSS e JavaScript. O jogador deve fazer o máxim
 
 No Html foi usado sua estrutura básica, incluindo os códigos para "chamar" o CSS, JavaScript e o Canvas (Foi definido sua altura e largura)
 
-<img src="img/html.jpg" width="600" height="400">
+<img src="img/html.jpg" width="500" height="500">
 
 ## CSS
 
