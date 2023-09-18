@@ -17,6 +17,8 @@ Este é um jogo utilizando Html, CSS e JavaScript. O jogador deve fazer o máxim
 
 No Html foi usado sua estrutura básica, incluindo os códigos para "chamar" o CSS, JavaScript e o Canvas (Foi definido sua altura e largura)
 
+<img src="html.jpg" alt="img" width="600" height="400">
+
 ## CSS
 
 No CSS definimos uma borda no centro da tela onde irá aparecer o jogo. Isso o deixa com uma aparência mais refinada e dinâmica para jogar.
@@ -34,4 +36,6 @@ No JavaScript contém toda a lógica como:
 °Mudança na Tela Ativa entre inicio, jogo e final game;
 
 °Os códigos para desenhar os sprites para posicionar no canvas;
+
+°Funções de loop, click e atualização de frames;
 
