@@ -155,7 +155,7 @@ function crianuvem(){
 }
 return nuvem;
 }
-
+  
   function criaplacar(){
     const placar = {
       score: 0,
