@@ -201,7 +201,7 @@ return nuvem;
 
     const mensagemFinalGame = {
       spriteX: 134,
-      spriteY: 100,
+      spriteY: 350,
       largura: 226,
       altura: 90,
       x: (canvas.width/ 2) - 226 / 2 ,
