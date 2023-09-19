@@ -91,6 +91,22 @@ function Colidir(balão, chao){
   return false;
 
 }
+
+function Colisao(balão, nuvem){
+  const balãoX = balão.x + balão.largura;
+  const nuvemX = nuvem.x;
+
+  const balãoY = balão.y + balão.altura;
+  const nuvemY = nuvem.y;
+
+  if(balãoX >= nuvemX && balãoY >= nuvemY){
+    return true;
+  }
+  
+  return false;
+
+}
+
   function criabalão(){
   const balão = {
     spriteX: 390,
@@ -112,6 +128,12 @@ function Colidir(balão, chao){
         mudaParaTela(Telas.FINAL_GAME);
         return;
     }
+
+    if(Colisao(balão, globais.nuvem)){
+
+      mudaParaTela(Telas.FINAL_GAME);
+      return;
+  }
       balão.velocidade = balão.velocidade + balão.gravidade;
       balão.y = balão.y + (balão.velocidade);
     },
@@ -130,7 +152,6 @@ function Colidir(balão, chao){
   return balão;
 }  
 
-
 function crianuvem(){
     const nuvem = {
     spriteX: 390,
@@ -138,7 +159,7 @@ function crianuvem(){
     largura: 200,
     altura: 200,
     x: 300,
-    y: 100,
+    y: Math.floor(Math.random() * 451),
 
     desenha(){
 
@@ -152,6 +173,13 @@ function crianuvem(){
     },
     atualiza(){
 
+      if (nuvem.length === 0 || canvas.width - nuvem[nuvem.length - 1].x >= nuvempacing) {
+        const openingY = Math.floor(Math.random() * (canvas.height - nuvemGap));
+        nuvem.push({ x: canvas.width, openingY });
+    }
+      
+      nuvem.x = nuvem.x - 1;
+      
     }
 }
 return nuvem;
