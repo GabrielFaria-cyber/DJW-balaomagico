@@ -173,11 +173,6 @@ function crianuvem(){
     },
     atualiza(){
 
-      if (nuvem.length === 0 || canvas.width - nuvem[nuvem.length - 1].x >= nuvempacing) {
-        const openingY = Math.floor(Math.random() * (canvas.height - nuvemGap));
-        nuvem.push({ x: canvas.width, openingY });
-    }
-      
       nuvem.x = nuvem.x - 1;
       
     }

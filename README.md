@@ -39,6 +39,8 @@ No JavaScript contém toda a lógica como:
 
 <img src="img/colisãobc.jpg" width="600" height="500">
 
+<img src="img/colisaobn.png" width="600" height="500">
+
 °Controle de Pontuação;
 
 <img src="img/pontuação.jpg" width="600" height="500">
