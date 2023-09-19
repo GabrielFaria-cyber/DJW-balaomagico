@@ -23,19 +23,41 @@ No Html foi usado sua estrutura básica, incluindo os códigos para "chamar" o C
 
 No CSS definimos uma borda no centro da tela onde irá aparecer o jogo. Isso o deixa com uma aparência mais refinada e dinâmica para jogar.
 
+<img src="img/css.jpg" width="600" height="500">
+
 ## JavaScript
 
 No JavaScript contém toda a lógica como:
 
 °Movimentação do balão e chão;
 
+<img src="img/movebalão.jpg" width="600" height="500">
+<br></br>
+<img src="img/movechão.jpg" width="600" height="500">
+
 °Detecção de colisões entre o balão, chão e as nuvens;
+
+<img src="img/colisãobc.jpg" width="600" height="500">
 
 °Controle de Pontuação;
 
+<img src="img/pontuação.jpg" width="600" height="500">
+
 °Mudança na Tela Ativa entre inicio, jogo e final game;
+
+<img src="img/telaativa.jpg" width="600" height="500">
+<br></br>
+<img src="img/telainicio.jpg" width="600" height="500">
+<br></br>
+<img src="img/telajogo.jpg" width="600" height="500">
+<br></br>
+<img src="img/telagameover.jpg" width="600" height="500">
 
 °Os códigos para desenhar os sprites para posicionar no canvas;
 
+<img src="img/posicaosprites.jpg" width="600" height="500">
+
 °Funções de loop, click e atualização de frames;
+
+<img src="img/funções.jpg" width="600" height="500">
 
