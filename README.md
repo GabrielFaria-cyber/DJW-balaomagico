@@ -1,4 +1,6 @@
 # DJW-balão_mágico (Gabriel Faria e Gustavo Henrique)
+link para video.
+https://drive.google.com/file/d/1KZEnzJhsOp3Cl-Dpd5e9rAQhu26eEtGx/view?usp=drive_link
 
 ## Descrição
 Este é um jogo utilizando Html, CSS e JavaScript. O jogador deve fazer o máximo de pontos possiveis sem colidir com os obstáculos;
@@ -64,3 +66,4 @@ No JavaScript contém toda a lógica como:
 <img src="img/funções.jpg" width="600" height="500">
 
 OBS: Esse jogo foi produzido usando como base a música Balão Mágico e o jogo FlappyBird
+
