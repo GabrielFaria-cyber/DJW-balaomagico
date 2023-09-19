@@ -47,7 +47,7 @@ No JavaScript contém toda a lógica como:
 
 <img src="img/telaativa.jpg" width="600" height="500">
 <br></br>
-<img src="img/telainicio.jpg" width="650" height="550">
+<img src="img/telainicio.jpg" width="600" height="500">
 <br></br>
 <img src="img/telajogo.jpg" width="600" height="500">
 <br></br>
