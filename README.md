@@ -38,7 +38,7 @@ No JavaScript contém toda a lógica como:
 °Detecção de colisões entre o balão, chão e as nuvens;
 
 <img src="img/colisãobc.jpg" width="600" height="500">
-
+<br></br>
 <img src="img/colisaobn.png" width="600" height="500">
 
 °Controle de Pontuação;
