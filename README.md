@@ -61,3 +61,4 @@ No JavaScript contém toda a lógica como:
 
 <img src="img/funções.jpg" width="600" height="500">
 
+OBS: Esse jogo foi produzido usando como base a música Balão Mágico e o jogo FlappyBird
